@@ -1,0 +1,38 @@
+# Programming Practice Questions
+
+## Question 1: Reverse a String
+Write a program to reverse a string without using built-in reverse functions.
+- Example: "hello" → "olleh"
+- Example: "python" → "nohtyp"
+
+## Question 2: Check Palindrome
+Write a program to check if a string is a palindrome (reads the same forwards and backwards).
+- Example: "radar" → True
+- Example: "hello" → False
+- Example: "madam" → True
+
+## Question 3: Count Vowels in a String
+Write a program to count the number of vowels (a, e, i, o, u) in a string.
+- Example: "hello world" → 3 vowels (e, o, o)
+- Example: "programming" → 3 vowels (o, a, i)
+
+## Question 4: Print Pattern (Triangle)
+Write a program to print a triangle pattern of stars.
+- Example for n=5:
+```
+*
+**
+***
+****
+*****
+```
+
+## Question 5: Find Length of String
+Write a program to find the length of a string without using built-in len() function.
+- Example: "hello" → 5
+- Example: "programming" → 11
+
+## Question 6: Remove Duplicates from String
+Write a program to remove duplicate characters from a string (keep first occurrence).
+- Example: "hello" → "helo"
+- Example: "programming" → "progamin"
