@@ -49,16 +49,14 @@
 
 #  Question 4: Print Pattern (Triangle)
 # Write a program to print a triangle pattern of stars.
-x=0
-y=8
-def star():
-    global x,y
-    if x==y:
-        return
-    x=x+1
-    print((y-x)*"*")
-    star()
-star()
+# x=0
+# y=8
+# def star():
+#     global x,y
+#     if x==y:
+#         return
+#     x=x+1
+#     print((y-x)*"*")
+#     star()
+# star()
 
-
-    
