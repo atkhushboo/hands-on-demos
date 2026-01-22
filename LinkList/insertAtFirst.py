@@ -1,4 +1,5 @@
 #insert At First ......
+# Write a function to insert a node at the beginning of an empty singly linked list.
 
 class Node:
     def __init__(self,data):
