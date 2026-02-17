@@ -1,0 +1,41 @@
+# implement Queue using List
+# Functions ----: enqueue(),dequeue(),is_empty(),size()
+
+class Queue:
+    def __init__(self):
+        self.q=[]
+        self.front=-1
+    
+    #enqueue...///push
+    def enqueue(self,item):
+        if self.front==-1:
+            self.front=0
+        self.q.append(item)
+        
+    #dequeue
+    def dequeue(self):
+        if len(self.q)==0:
+            return -1
+        pop=self.q.pop(0)
+        return pop
+        
+    #is_empty()
+    def is_empty(self):
+        return len(self.q)==0
+    
+    #size...
+    def size(self):
+        return len(self.q)
+    
+    #top of queue
+    def get_top(self):
+        return self.q[self.front]
+    
+q=Queue()
+q.enqueue(10)
+q.enqueue(20)
+q.enqueue(30)
+print(f"dequeue item is : {q.dequeue()}")
+print(f"Queue is empty: {q.is_empty()}")
+print(f"Queue size is: {q.size()}")
+print(f"Top of Queue: {q.get_top()}")
